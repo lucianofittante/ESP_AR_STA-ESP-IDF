@@ -26,36 +26,18 @@ The project is based on the Wi-Fi Station example in the ESP-IDF
 
 ## How to use example
 
-### Configure the project
+1) Build and upload the example.
 
-Open the project configuration menu (`idf.py menuconfig`).
+2) Write IP address into the explorer. It should pop up on serial moniror usuallu 192.168.4.1
 
-In the `Example Configuration` menu:
+3) Upload user and password
 
-* Set the Wi-Fi configuration.
-    * Set `WiFi SSID`.
-    * Set `WiFi Password`.
+4) Esp should conect to you wifi and show IP on the serial monitor. 
 
-Optional: If you need, change the other options according to your requirements.
 
-### Build and Flash
-
-Build the project and flash it to the board, then run the monitor tool to view the serial output:
-
-Run `idf.py -p PORT flash monitor` to build, flash and monitor the project.
-
-(To exit the serial monitor, type ``Ctrl-]``.)
-
-See the Getting Started Guide for all the steps to configure and use the ESP-IDF to build projects.
-
-* [ESP-IDF Getting Started Guide on ESP32](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html)
-* [ESP-IDF Getting Started Guide on ESP32-S2](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s2/get-started/index.html)
-* [ESP-IDF Getting Started Guide on ESP32-C3](https://docs.espressif.com/projects/esp-idf/en/latest/esp32c3/get-started/index.html)
-
-## Example Output
 Note that the output, in particular the order of the output, may vary depending on the environment.
 
-Console output if station connects to AP successfully:
+Console output if station connects to AP successfully (When you already uploaded user and password into ESP):
 ```
 I (589) wifi station: ESP_WIFI_MODE_STA
 I (599) wifi: wifi driver task: 3ffc08b4, prio:23, stack:3584, core=0
