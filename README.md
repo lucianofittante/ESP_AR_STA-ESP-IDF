@@ -18,11 +18,11 @@ The project is based on the Wi-Fi Station example in the ESP-IDF
 
 
 
-# Wi-Fi Station Example
+# Wi-Fi ModoAP or ModoSTA to upload WiFi user and password
 
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
 
-This example shows how to use the Wi-Fi Station functionality of the Wi-Fi driver of ESP for connecting to an Access Point.
+
+
 
 ## How to use example
 
