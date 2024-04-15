@@ -1,9 +1,21 @@
 
 
+
+
+
+
+
     This project has been created to upload a WiFi username and password to the SPIFFS memory of the ESP32. You can start the ESP32 in AP mode to connect to an 'ESP' network, where you can upload the password. After that, you can reset the ESP32, and it will connect in Station mode to a domestic WiFi network.
 
 
     The project is based on the Wi-Fi Station example in the ESP-IDF
+
+
+
+
+
+
+
 
 
 
