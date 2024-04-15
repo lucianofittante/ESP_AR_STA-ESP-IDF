@@ -1,7 +1,7 @@
 {
     "version":            "1",
     "project_name":       "ESP_AP_STA",
-    "project_version":    "1",
+    "project_version":    "23b76c9-dirty",
     "project_path":       "C:/Users/lucho/Desktop/ESP_AP_STA",
     "idf_path":           "C:/ESP/Espressif/frameworks/esp-idf-v5.1.2",
     "build_dir":          "C:/Users/lucho/Desktop/ESP_AP_STA/build",
@@ -790,7 +790,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "C:/Users/lucho/Desktop/ESP_AP_STA/build/esp-idf/main/libmain.a",
-            "sources": [ "C:/Users/lucho/Desktop/ESP_AP_STA/main/station_example_main.c" ],
+            "sources": [ "C:/Users/lucho/Desktop/ESP_AP_STA/main/ESP_AP_STA.c" ],
             "include_dirs": [ "C:/Users/lucho/Desktop/ESP_AP_STA/mdns/include" ]
         },
         "mbedtls": {

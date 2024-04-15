@@ -20,7 +20,7 @@ The project is based on the Wi-Fi Station example in the ESP-IDF
 
 ## How to use example
 
-1) Build and upload the example.
+1) Build and upload the example. Hold Button CONFIGURAR (27). To put the ESP on AP mode. 
 
 2) Write IP address into the explorer. It should pop up on serial moniror usuallu 192.168.4.1
 
