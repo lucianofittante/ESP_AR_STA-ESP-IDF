@@ -1,0 +1,17 @@
+-- ccache will be used for faster recompilation
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file C:/Users/lucho/Desktop/ESP_AP_STA/sdkconfig
+-- App "ESP_AP_STA" version: 1
+-- Adding linker script C:/Users/lucho/Desktop/ESP_AP_STA/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script C:/ESP/Espressif/frameworks/esp-idf-v5.1.2/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script C:/ESP/Espressif/frameworks/esp-idf-v5.1.2/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script C:/ESP/Espressif/frameworks/esp-idf-v5.1.2/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script C:/ESP/Espressif/frameworks/esp-idf-v5.1.2/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script C:/ESP/Espressif/frameworks/esp-idf-v5.1.2/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script C:/ESP/Espressif/frameworks/esp-idf-v5.1.2/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script C:/ESP/Espressif/frameworks/esp-idf-v5.1.2/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script C:/ESP/Espressif/frameworks/esp-idf-v5.1.2/components/soc/esp32/ld/esp32.peripherals.ld
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/lucho/Desktop/ESP_AP_STA/build/CMakeFiles/CMakeOutput.log".

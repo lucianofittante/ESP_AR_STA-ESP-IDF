@@ -1,0 +1,9 @@
+Compiler supported targets: xtensa-esp32-elf
+
+CMake Error at C:/ESP/Espressif/frameworks/esp-idf-v5.1.2/tools/cmake/component.cmake:313 (message):
+  Include directory 'C:/Users/lucho/Desktop/mdsn/include' is not a directory.
+Call Stack (most recent call first):
+  C:/ESP/Espressif/frameworks/esp-idf-v5.1.2/tools/cmake/component.cmake:481 (__component_add_include_dirs)
+  main/CMakeLists.txt:1 (idf_component_register)
+
+

@@ -1,0 +1,95 @@
+html {
+    font-family: Helvetica;
+    display: inline-block;
+    margin: 0px auto;
+    text-align: center;
+}
+h1 {
+    color: #0F3376;
+    padding: 0.5vh;
+    margin-right: 35px; /* Ajusta el valor según sea necesario */
+    text-align: center; /* Para mantener el texto centrado horizontalmente */
+}
+p {
+    font-size: 1.5rem;
+}
+body {
+    text-align: center;
+}
+.container {
+    display: inline-block;
+    text-align: center;
+}
+table {
+    margin: 0 auto;
+    text-align: center;
+}
+td {
+    padding: 5px;
+    font-size: 10px;
+}
+.Button {
+    
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;          
+    font-weight: bold;
+    font-style: italic;
+    padding: 17px 19px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial;
+    width: 140px;
+    height: 50px;
+    border-width: 1px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+.ButtonR {   
+    border-color: #d02718; 
+    box-shadow: 3px 4px 0px 0px #8a2a21;
+    text-shadow: 0px 1px 0px #810e05;
+    background: linear-gradient(#c62d1f, #f24437);
+}
+.ButtonR:hover {
+    background: linear-gradient(#f24437, #c62d1f);
+}
+.Button:active {
+    position: relative;
+    top: 1px;
+}
+.ButtonG {
+    border-color: #3dd018; 
+    box-shadow: 3px 4px 0px 0px #218a21;
+    text-shadow: 0px 1px 0px #058105;
+    background: linear-gradient(#1fc627, #37f237);
+}
+.ButtonG:hover {
+    background: linear-gradient(#3df237, #3bc61f);
+}
+.ButtonB {
+    border-color: #1849d0; 
+    box-shadow: 3px 4px 0px 0px #214b8a;
+    text-shadow: 0px 1px 0px #053b81;
+    background: linear-gradient(#1f67c6, #378ef2);
+}
+.ButtonB:hover {
+    background: linear-gradient(#3788f2, #1f54c6);
+}
+#circles {
+    width: 4mm; /* Diámetro de 2mm */
+    height: 4mm; /* Diámetro de 2mm */
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px; /* Espacio entre el botón y el círculo */
+}
+#circlem {
+    width: 4mm; /* Diámetro de 2mm */
+    height: 4mm; /* Diámetro de 2mm */
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 10px; /* Espacio entre el botón y el círculo */
+}
+    
